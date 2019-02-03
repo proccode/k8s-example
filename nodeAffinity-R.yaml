@@ -7,7 +7,7 @@ spec:
     nodeAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
-        - matchWxpressions:
+        - matchExpressions:
           - key: area
             operator: In
             values:
