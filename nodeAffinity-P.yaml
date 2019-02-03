@@ -8,7 +8,7 @@ spec:
       preferredDuringSchedulingIgnoredDuringExecution:
       - wight: 90
         preference:
-          matchWxpressions:
+          matchExpressions:
           - key: area
             operator: In
             values:
