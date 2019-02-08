@@ -6,7 +6,7 @@ metadata:
     app: nginx
 spec:
   nodeSelector:
-    cpucounts: 4
+    cpucounts: four
   containers:
   - name: nginx
     image: docker.io/library/nginx     
